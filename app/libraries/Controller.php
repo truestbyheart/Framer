@@ -7,17 +7,17 @@
 
 class Controller {
     /**
-     * This functions loads the model.
+     * This functions loads the models.
      * @param $model
-     * @return an instance of the model
+     * @return an instance of the models
      */
     public function model($model) {
-        require_once '../app/models' . $model . '.php';
+        require_once '../app/models/' . $model . '.php';
         return new $model();
     }
 
     /**
-     * this function loads the view file.
+     * this function loads the views file.
      * @param $view
      * @param array $data
      */
