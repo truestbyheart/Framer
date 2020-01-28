@@ -1,4 +1,12 @@
 <?php
+// Database values
+define("DB_HOST", "localhost");
+define("DB_NAME", "pmf");
+define("DB_USER", "root");
+define("DB_PASS", "juju#96LVm45");
+
+
+// site const
 define('APPROOT', dirname(dirname(__FILE__)));
-define('URLROOT', '_YOUR_URL_');
-define('SITENAME', '_YOUR_SITENAME_');
+define('URLROOT', 'https://localhost/PHP-MVC-Framework/');
+define('SITENAME', 'PHP-MVC-Framework');
