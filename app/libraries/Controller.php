@@ -5,7 +5,7 @@
  * Loads the models and views
  */
 
-class Controller {
+class Controller{
     /**
      * This functions loads the models.
      * @param $model
