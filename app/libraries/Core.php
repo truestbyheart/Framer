@@ -15,6 +15,7 @@ class Core {
 
     public function __construct() {
         $url = $this->getURL();
+        print_r($url);
         /*
          * checking if the controller exist.
          */
