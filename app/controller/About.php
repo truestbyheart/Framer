@@ -1,2 +1,6 @@
 <?php
-echo "hello from about";
+class About extends Controller {
+   public function About(){
+       $this->view('about');
+   }
+}

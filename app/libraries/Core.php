@@ -8,14 +8,12 @@
  */
 
 class Core {
-
     protected $currentController = 'pages';
     protected $currentMethod = 'index';
     protected $params = [];
 
     public function __construct() {
         $url = $this->getURL();
-        print_r($url);
         /*
          * checking if the controller exist.
          */
