@@ -1,0 +1,6 @@
+{
+  "require": {
+    "guzzlehttp/guzzle": "~6.0@dev",
+    "eftec/bladeone": "^3.34"
+  }
+}

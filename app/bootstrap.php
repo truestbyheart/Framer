@@ -1,4 +1,7 @@
 <?php
+require  "../vendor/autoload.php";
+require_once 'config/config.php';
+
 
 // autoloading all files in libraries
 spl_autoload_register(function ($className) {
